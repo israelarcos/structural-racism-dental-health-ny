@@ -1,0 +1,1592 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.batch
+{
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.contentprocname
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.contents
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.continued
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorbanner
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontent
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FFFFFF;
+  border: 1pt solid #000000;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontent
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footer
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexitem
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.indextitle
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.linecontent
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list10
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list2
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list3
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list4
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list5
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list6
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list7
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list8
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list9
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem10
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem2
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem3
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem4
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem5
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem6
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem7
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem8
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.listitem9
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.note
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontent
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #CCCCCC;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagesprocname
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagestitle
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.paragraph
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  background-color: #FFFFFF;
+  border-spacing: 0px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.proctitle
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.proctitlefixed
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #6495ED;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter10
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter2
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter3
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter4
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter5
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter6
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter7
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter8
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter9
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  background-color: #CCCCCC;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.usertext
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontent
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FFFFFF;
+  color: #003399;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+<style type="text/css">
+table {
+  mso-displayed-decimal-separator:"\.";
+  mso-displayed-thousand-separator:"\,";
+}
+</style>
+</head>
+<body onload="startup()" onunload="shutdown()" class="body" style=" text-align: center;">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<h1 class="systemtitle" style=" text-align: center;">Percentage of 3rd grade children with dental sealants, 2009-2011</h1>
+<h1 class="systemtitle2" style=" text-align: center;">Data Source: Bureau of Dental Health Data as of August, 2012</h1>
+<h1 class="systemtitle3" style=" text-align: center;">s: Data do not meet reporting criteria.</h1>
+<h1 class="systemtitle4" style=" text-align: center;">*: The rate/percentage is unstable or unreliable.</h1>
+<div>
+<div align="left">
+<table class="data_table tableWithFloatingHeader" style=" border: 1px none #000000; border-spacing: 1px; margin: 20px; text-align: left;" cellspacing="1" cellpadding="7" rules="none" frame="box" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr><th class="second_level_heading" style=" text-align: center;">Region/County</th>
+<th class="second_level_heading" style=" text-align: center;">Percentage (CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;1&nbsp;&nbsp;&nbsp;Long&nbsp;Island</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Nassau                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">29.1 (19.9-38.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Suffolk                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">14.1 (5.9-22.4)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;3&nbsp;&nbsp;&nbsp;Mid-Hudson</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Dutchess                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">42.4 (24.6-60.1)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Orange                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">28.0 (15.8-40.2)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Putnam                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">56.3 (46.7-66.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Rockland                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">55.1 (46.3-64.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Sullivan                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">25.1 (13.0-37.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Ulster                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">45.2 (30.3-60.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Westchester                                                                                                                                                                                                                                                                                                 </td>
+<td class="even_row" style=" text-align: center;">57.5 (45.2-69.8)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;4&nbsp;&nbsp;&nbsp;Capital&nbsp;Region</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Albany                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">54.8 (37.0-72.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Columbia                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">42.5 (30.6-54.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Greene                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">64.4 (47.1-81.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Rensselaer                                                                                                                                                                                                                                                                                                  </td>
+<td class="even_row" style=" text-align: center;">56.0 (45.2-66.8)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Saratoga                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">34.8 (22.6-46.9)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Schenectady                                                                                                                                                                                                                                                                                                 </td>
+<td class="even_row" style=" text-align: center;">73.9 (59.7-88.1)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;5&nbsp;&nbsp;&nbsp;Mohawk&nbsp;Valley</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Fulton                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">s</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Herkimer                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">39.7 (20.9-58.5)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Montgomery                                                                                                                                                                                                                                                                                                  </td>
+<td class="even_row" style=" text-align: center;">38.0 (27.5-48.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Otsego                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">56.0 (42.6-69.5)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Schoharie                                                                                                                                                                                                                                                                                                   </td>
+<td class="even_row" style=" text-align: center;">28.1 (13.4-42.9)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;6&nbsp;&nbsp;&nbsp;North&nbsp;Country</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Clinton                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">31.3 (22.4-40.2)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Essex                                                                                                                                                                                                                                                                                                       </td>
+<td class="even_row" style=" text-align: center;">34.5 (22.1-47.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Franklin                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">45.6 (36.9-54.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Hamilton                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">s</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Warren                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">29.0 (19.0-39.1)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Washington                                                                                                                                                                                                                                                                                                  </td>
+<td class="even_row" style=" text-align: center;">17.2 (4.5-29.8)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;7&nbsp;&nbsp;&nbsp;Tug&nbsp;Hill&nbsp;Seaway</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Jefferson                                                                                                                                                                                                                                                                                                   </td>
+<td class="even_row" style=" text-align: center;">56.3 (48.7-63.9)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Lewis                                                                                                                                                                                                                                                                                                       </td>
+<td class="even_row" style=" text-align: center;">57.8 (45.1-70.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">St. Lawrence                                                                                                                                                                                                                                                                                                </td>
+<td class="even_row" style=" text-align: center;">72.3 (57.8-86.8)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;8&nbsp;&nbsp;&nbsp;Central&nbsp;NY</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Cayuga                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">63.0 (53.6-72.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Cortland                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">47.9 (33.6-62.1)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Madison                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">71.1 (58.5-83.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Oneida                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">34.1 (25.1-43.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Onondaga                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">50.4 (42.5-58.4)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Oswego                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">52.6 (38.3-67.0)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;9&nbsp;&nbsp;&nbsp;Southern&nbsp;Tier</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Broome                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">64.9 (57.8-72.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Chenango                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">41.7 (31.9-51.4)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Delaware                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">57.3 (45.1-69.5)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Tioga                                                                                                                                                                                                                                                                                                       </td>
+<td class="even_row" style=" text-align: center;">62.9 (53.7-72.1)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Tompkins                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">44.4 (29.9-58.9)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;10&nbsp;&nbsp;&nbsp;Finger&nbsp;Lakes</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Chemung                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">26.0 (11.8-40.1)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Livingston                                                                                                                                                                                                                                                                                                  </td>
+<td class="even_row" style=" text-align: center;">61.9 (53.8-70.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Monroe                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">63.0 (53.2-72.9)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Ontario                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">42.8 (28.1-57.5)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Schuyler                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">19.2 (3.2-35.3)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Seneca                                                                                                                                                                                                                                                                                                      </td>
+<td class="even_row" style=" text-align: center;">23.0 (12.2-33.7)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Steuben                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">25.3 (13.0-37.7)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Wayne                                                                                                                                                                                                                                                                                                       </td>
+<td class="even_row" style=" text-align: center;">31.6 (21.3-42.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Yates                                                                                                                                                                                                                                                                                                       </td>
+<td class="even_row" style=" text-align: center;">34.2 (17.5-50.9)</td>
+</tr>
+<tr><td class="th_grey" style=" font-weight: bold; text-align: left;" colspan="2">Region&nbsp;-&nbsp;11&nbsp;&nbsp;&nbsp;Western&nbsp;NY</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Allegany                                                                                                                                                                                                                                                                                                    </td>
+<td class="even_row" style=" text-align: center;">53.6 (43.4-63.8)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Cattaraugus                                                                                                                                                                                                                                                                                                 </td>
+<td class="even_row" style=" text-align: center;">34.9 (21.9-48.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Chautauqua                                                                                                                                                                                                                                                                                                  </td>
+<td class="even_row" style=" text-align: center;">42.9 (32.6-53.2)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Erie                                                                                                                                                                                                                                                                                                        </td>
+<td class="even_row" style=" text-align: center;">39.9 (30.9-49.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Genesee                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">55.9 (40.9-71.0)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Niagara                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">31.7 (20.9-42.6)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Orleans                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">54.3 (43.9-64.7)</td>
+</tr>
+<tr><td class="even_row" style=" text-align: left;">Wyoming                                                                                                                                                                                                                                                                                                     </td>
+<td class="even_row" style=" text-align: center;">71.7 (59.2-84.2)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
+<h1>Error en el proceso almacenado</h1><h3>Completado con errores.</h3>
