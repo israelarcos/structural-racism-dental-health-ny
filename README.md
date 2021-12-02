@@ -33,5 +33,5 @@ The final website we use was the one for the Department of Health. We use the da
 
 # Data Cleaning
 We use Google Colab with Jupyter Notebooks to clean the data using standard functions from Pandas library.
-https://colab.research.google.com/drive/1YBiOc48Iv9LR2r-BgBdoy9x6nv21wgWp?usp=sharing
+[Data Cleaning Jupyter Notebook](https://colab.research.google.com/drive/1YBiOc48Iv9LR2r-BgBdoy9x6nv21wgWp?usp=sharing)
 
