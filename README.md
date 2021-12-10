@@ -149,6 +149,10 @@ In this figure we see that although there is not too much teeth decay, Black and
 ![image](https://user-images.githubusercontent.com/95376025/144941982-29fa6e4a-28b3-4a2b-a465-12405643b6f0.png)
 In this graph it is clear that nonwhite people have better oral health after 65 years. Specially Black and Multiracial people, who were the only two groups with more positive cases of lost teeth. 
 
+![image](https://user-images.githubusercontent.com/95376025/145509515-59c650a3-2c57-49a8-8d34-71440d25a4be.png)
+We see that the biggest percentages of untreated caries happen in  Sullivan, Lewis and Herkimer. While the smallest ones occur in Albany, Greene and Westchester.
+
+![image](https://user-images.githubusercontent.com/95376025/145512548-63397942-c007-44d2-b9c2-0b5042340bcf.png)
 
 
 
