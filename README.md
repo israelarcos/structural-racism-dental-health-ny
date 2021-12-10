@@ -153,8 +153,15 @@ In this graph it is clear that nonwhite people have better oral health after 65 
 We see that the biggest percentages of untreated caries happen in  Sullivan, Lewis and Herkimer. While the smallest ones occur in Albany, Greene and Westchester.
 
 ![image](https://user-images.githubusercontent.com/95376025/145512548-63397942-c007-44d2-b9c2-0b5042340bcf.png)
+We see that the biggest percentages of caries experience happen in  Madison, St. Lawrence and Chautuqua. While the smallest ones occur in Steuben, Dutchess, and Albany.
 
+![image](https://user-images.githubusercontent.com/95376025/145609426-6eb0bb9f-5e73-401a-bce1-e27e87d55c22.png)
+We see that the biggest percentages of dental sealants happen in  Schenectady, St. Lawrence and Wyoming. While the smallest ones occur in Suffolk, Washington, and Schuyler.
 
+![image](https://user-images.githubusercontent.com/95376025/145609442-8f00174b-96e4-4390-88a5-fdcc7d285a93.png)
+We see that the biggest percentages of children with dental insurance happen in Fulton, Renssekaer and Madison. While the smallest ones occur in Montgomery, Allegany and Cayuga. 
 
+![image](https://user-images.githubusercontent.com/95376025/145609457-7554e728-f8e7-4203-a02b-2d7a0bb5c7b2.png)
 
+![image](https://user-images.githubusercontent.com/95376025/145609464-26da12b6-b509-4f5c-ac4f-3dfcaf942353.png)
 
