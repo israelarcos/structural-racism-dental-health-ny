@@ -165,3 +165,6 @@ We see that the biggest percentages of children with dental insurance happen in 
 
 ![image](https://user-images.githubusercontent.com/95376025/145609464-26da12b6-b509-4f5c-ac4f-3dfcaf942353.png)
 
+# Results
+In counties with more presence of non white people there are more cases of untreated caries and less visits to dentist. So, we can conclude that there is still some structural racism in Oral Health. 
+
